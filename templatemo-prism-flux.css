@@ -277,7 +277,8 @@ body::after {
 }
 
 .logo-text .prism {
-	background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan)), url('images/JandelLogo.ico') center/35px no-repeat;
+	/* background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan)), */
+	background: url('images/JandelLogo.ico') center/35px no-repeat;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;

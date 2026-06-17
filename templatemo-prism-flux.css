@@ -139,34 +139,19 @@ body::after {
 	animation: prismRotate 3s linear infinite;
 }
 
-/* center an icon inside the prism */
-.prism-face .prism-icon {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	pointer-events: none;
-	z-index: 2;
-	font-size: 24px; /* adjust as needed */
-	color: var(--accent-blue);
-}
-
 .prism-face:nth-child(1) {
 	border-image: linear-gradient(45deg, var(--accent-red), var(--accent-blue)) 1;
 	animation-delay: 0s;
 }
 
 .prism-face:nth-child(2) {
-	border-image: linear-gradient(45deg, var(--accent-blue), var(--accent-green)) 1;
+	border-image: linear-gradient(45deg, var(--accent-blue), var(--accent-lightblue)) 1;
 	transform: rotate(60deg);
 	animation-delay: 0.2s;
 }
 
 .prism-face:nth-child(3) {
-	border-image: linear-gradient(45deg, var(--accent-green), var(--accent-purple)) 1;
+	border-image: linear-gradient(45deg, var(--accent-#008aed), var(--accent-purple)) 1;
 	transform: rotate(120deg);
 	animation-delay: 0.4s;
 }

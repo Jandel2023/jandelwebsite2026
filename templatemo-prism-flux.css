@@ -373,7 +373,7 @@ body::after {
 	position: relative;
 	padding: 120px 20px 80px;
 	background: radial-gradient(ellipse at center,
-			rgba(153, 69, 255, 0.1) 0%,
+			#0af9ff 0%,
 			transparent 50%);
 }
 
@@ -416,7 +416,7 @@ body::after {
 	overflow: hidden;
 	box-shadow:
 		0 20px 40px rgba(0, 0, 0, 0.8),
-		inset 0 1px 0 rgba(255, 255, 255, 0.1);
+		inset 0 1px 0 #0af9ff;
 }
 
 .carousel-item .card::before {
@@ -530,7 +530,7 @@ body::after {
 
 .card-cta:hover {
 	transform: translateY(-2px);
-	box-shadow: 0 8px 25px rgba(153, 69, 255, 0.5);
+	box-shadow: 0 8px 25px #0af9ff;
 }
 
 /* Carousel Controls */
@@ -566,7 +566,7 @@ body::after {
 	border-color: var(--accent-purple);
 	box-shadow:
 		0 8px 25px rgba(69, 249, 255, 0.3),
-		inset 0 1px 0 rgba(255, 255, 255, 0.2);
+		inset 0 1px 0 #0af9ff;
 	transform: scale(1.1);
 }
 

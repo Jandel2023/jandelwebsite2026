@@ -280,17 +280,17 @@ body::after {
 	/* background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan)), */
 	background: url('images/JandelLogo.ico') center/35px no-repeat;
 	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
+	-webkit-text-fill-color: transparent; */
+	background-clip: icon;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain; */
+	background-size: contain;
 }
 
 .logo-text .flux {
-	/* color: var(--text-secondary);
+	color: var(--text-secondary);
 	font-weight: 300;
-	margin-left: 5px; */
+	margin-left: 5px;
 }
 
 .nav-menu {

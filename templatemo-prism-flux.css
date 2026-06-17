@@ -139,6 +139,21 @@ body::after {
 	animation: prismRotate 3s linear infinite;
 }
 
+/* center an icon inside the prism */
+.prism-face .prism-icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	z-index: 2;
+	font-size: 24px; /* adjust as needed */
+	color: var(--accent-blue);
+}
+
 .prism-face:nth-child(1) {
 	border-image: linear-gradient(45deg, var(--accent-red), var(--accent-blue)) 1;
 	animation-delay: 0s;
@@ -277,10 +292,9 @@ body::after {
 }
 
 .logo-text .prism {
-	/* background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan)), */
-	background: url('images/JandelLogo.ico') center/35px no-repeat;
-	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
+	background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	background-clip: icon;
 	background-position: center;
 	background-repeat: no-repeat;

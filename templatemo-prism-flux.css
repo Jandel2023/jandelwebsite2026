@@ -224,6 +224,15 @@ body::after {
 	justify-content: center;
 }
 
+.my-logo {
+	width: 100%;
+	height: 100%;
+	background: url('images/JandelLogo.ico') no-repeat center center;
+	background-size: contain;
+	display: block;
+	animation: logoShine 3s ease-in-out infinite;
+}
+
 .prism-shape {
 	width: 30px;
 	height: 30px;

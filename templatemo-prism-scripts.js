@@ -14,69 +14,68 @@ https://templatemo.com/tm-600-prism-flux
         const portfolioData = [
             {
                 id: 1,
-                title: 'Neural Network',
-                description: 'Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.',
-                image: 'images/neural-network.jpg',
-                tech: ['TensorFlow', 'Python', 'CUDA']
+                title: 'The Nest',
+                description: 'The Nest: Is my Capstone Project - with a modern co-working space designed for productivity, collaboration, and growth',
+                image: 'images/thenest.png',
+                tech: ['LaravelFilament', 'PHP', 'Tailwind CSS']
             },
             {
                 id: 2,
-                title: 'Quantum Cloud',
-                description: 'Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.',
-                image: 'images/quantum-cloud.jpg',
-                tech: ['AWS', 'Kubernetes', 'Docker']
+                title: 'TM-1',
+                description: 'Trainers Methodology Level I (TM 1)',
+                image: 'images/tm-1.png',
+                tech: ['TESDA', 'Trainer', 'Assessor']
             },
             {
                 id: 3,
-                title: 'Blockchain Vault',
-                description: 'Secure decentralized storage solution using advanced encryption and distributed ledger technology.',
-                image: 'images/blockchain-vault.jpg',
-                tech: ['Ethereum', 'Solidity', 'Web3']
+                title: 'M/SES NC II',
+                description: 'Motorcycle/Small Engine Servicing NC II',
+                image: 'images/motorcycle-servicing.jpg',
+                tech: ['TESDA', 'Motorcycle', 'Small Engine']
             },
             {
                 id: 4,
-                title: 'Cyber Defense',
-                description: 'Military-grade cybersecurity framework with real-time threat detection and automated response.',
-                image: 'images/cyber-defense.jpg',
-                tech: ['Zero Trust', 'AI Defense', 'Encryption']
-            },
-            {
-                id: 5,
-                title: 'Data Nexus',
-                description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
-                image: 'images/data-nexus.jpg',
-                tech: ['Apache Spark', 'Hadoop', 'Kafka']
-            },
-            {
-                id: 6,
-                title: 'AR Interface',
-                description: 'Augmented reality system for immersive data visualization and interactive experiences.',
-                image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'ARCore', 'Computer Vision']
-            },
-            {
-                id: 7,
-                title: 'IoT Matrix',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
-                image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
+                title: 'PVSI NC II',
+                description: ' Photovoltaic System Installation NC II',
+                image: 'images/solar-installation.jpeg',
+                tech: ['TESDA', 'Solar', 'Renewable Energy']
             }
+           
         ];
 
         // Skills data
         const skillsData = [
-            { name: 'React.js', icon: '⚛️', level: 95, category: 'frontend' },
-            { name: 'Node.js', icon: '🟢', level: 90, category: 'backend' },
-            { name: 'TypeScript', icon: '📘', level: 88, category: 'frontend' },
-            { name: 'AWS', icon: '☁️', level: 92, category: 'cloud' },
-            { name: 'Docker', icon: '🐳', level: 85, category: 'cloud' },
-            { name: 'Python', icon: '🐍', level: 93, category: 'backend' },
-            { name: 'Kubernetes', icon: '☸️', level: 82, category: 'cloud' },
-            { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
-            { name: 'TensorFlow', icon: '🤖', level: 78, category: 'emerging' },
-            { name: 'Blockchain', icon: '🔗', level: 75, category: 'emerging' },
-            { name: 'Vue.js', icon: '💚', level: 85, category: 'frontend' },
-            { name: 'MongoDB', icon: '🍃', level: 90, category: 'backend' }
+            { name: 'Tailwind CSS', icon: '🌬️', level: 95, category: 'frontend' },
+            { name: 'Bootstrap', icon: '🅱️', level: 88, category: 'frontend' },
+            { name: 'JavaScript', icon: '🟨', level: 88, category: 'frontend' },
+
+            { name: 'Php', icon: '🐘', level: 90, category: 'backend' },
+            { name: 'C++', icon: '➕➕', level: 93, category: 'backend' },
+
+            { name: 'Laravel-filament', icon: '🛠️', level: 90, category: 'framework' },
+            { name: 'Visual Basic', icon: '🧩', level: 93, category: 'framework' },
+            { name: 'WordPress', icon: '🌐', level: 90, category: 'framework' },
+            { name: 'Visual Studio Code', icon: '💻', level: 93, category: 'framework' },
+
+            { name: 'MySQL', icon: '🐬', level: 92, category: 'database' },
+            { name: 'SQLite', icon: '📦', level: 92, category: 'database' },
+            { name: 'phpMyAdmin', icon: '🐳', level: 85, category: 'database' },
+          
+            { name: 'Service motorcycle engine systems', icon: '🛠️', level: 82, category: 'motorcycle' },
+            { name: 'Service electrical systems', icon: '🔌', level: 82, category: 'motorcycle' },
+            { name: 'Service chassis', icon: '⚙️', level: 82, category: 'motorcycle' },
+            { name: 'Overhaul motorcycle small engines', icon: '🔧', level: 82, category: 'motorcycle' },
+
+            { name: 'Off-grid set-up', icon: '☀️', level: 87, category: 'solar' },
+            { name: 'On-grid set-up', icon: '🔌', level: 78, category: 'solar' },
+            { name: 'Hybrid set-up', icon: '🔄', level: 75, category: 'solar' },
+
+            { name: 'Plan training sessions', icon: '📝', level: 85, category: 'tm-1' },
+            { name: 'Facilitate training sessions', icon: '👥', level: 90, category: 'tm-1' },
+            { name: 'Supervise work-based learning', icon: '👀', level: 85, category: 'tm-1' },
+            { name: 'Conduct Competency Assessments', icon: '🧾', level: 90, category: 'tm-1' },
+            { name: 'Maintain training facilities', icon: '🏫', level: 85, category: 'tm-1' },
+            { name: 'Utilize electronic media in facilitating training', icon: '💻', level: 90, category: 'tm-1' },
         ];
 
         // Scroll to section function
@@ -459,7 +458,7 @@ https://templatemo.com/tm-600-prism-flux
             const data = Object.fromEntries(formData);
             
             // Show success message
-            alert(`Thank you ${data.name}! Your message has been transmitted successfully. We'll respond within 24 hours.`);
+            alert(`Thank you ${data.name}! Your message has been sent successfully.`);
             
             // Reset form
             contactForm.reset();
